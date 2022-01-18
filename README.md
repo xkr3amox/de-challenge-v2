@@ -70,3 +70,4 @@ We want you to give us the way to deploy your job and run it in any environment,
 "This challenge is your cover letter, the elections you choose to do & not to do matters!!, and will be ask in the next interview. If you don't get to finish the challenge, we will have to end your application"
 
 ## Datasets
+Dataset for the challenge is inside folder "data"
