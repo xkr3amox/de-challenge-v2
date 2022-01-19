@@ -25,13 +25,13 @@ The EPL give different awards each season to the players and teams who played, t
 - Golden Boy (Best Sub20 Player)
 - Others to be defined each season
 
-During each match, the EPL has the record of each of the teams involved (Roster of players with name and last name, number, name of the coach), the goals in favor and against before the match & also during the course of the match it records in real time the shots, shots on goal, goals, assists, fouls, cards and goalkeeper saves.
+During each match, the EPL records information of each of the teams involved (Roster of players with name and last name, number, name of the coach), the goals in favor and against before the match. Also, during the course of the match it records in real time the shots, shots on goal, goals, assists, fouls, cards and goalkeeper saves.
 
-Each player, has a device that allows to record the distance covered during the minutes he was on the field, the water lost and the minutes played. This information is sent in real time to a central server (provided by the provider of the device) and sent to each of the analysis centers of each team for future analysis.
+Each player has a device that allows to record the distance covered during the minutes he was on the field, lost water and minutes played. This information is sent in real time to a central server (provided by the owners of the device) and sent to each of the analysis centers of each team for future analysis.
 
-The information of the match, plus players stats is crossed and sent to different sports sites in real time, to have the information of the moment of each match played, /* aqui vamos */ as well as to the bet houses to change every 5 minutes the % of bet on each of the alternatives they offer. 
+The information of the match and players stats are crossed and sent to different sports sites in real time, in order to have the most recent information of each ongoing match, as well as to the bet houses to change every 5 minutes the % of bet on each of the alternatives they offer. 
 
-Propose an architecture on the proposed situation, preferably with open source tools. And save in the architecture case folder (image in png or jpg)
+Propose an architecture for the given situation, preferably with open source tools. And save in the architecture case folder (image in png or jpg)
 
 # ETL Job
 
@@ -40,12 +40,12 @@ The job must receive the datasets & brings a few things:
 - The position table for all the seasons.
 - **The other requeriments will be in the email**
 
-The data is in the folder data/ in the root. The report need to be exported to a file, you can chose the extension of the file, but remember this is an ETL Job.
+The data is in the folder data/ in the root. The report needs to be exported to a file, you can chose the extension of the file, but remember this is an ETL Job.
 
 Please remember to save your code in src folder.
 
 
-## Word Meaning
+## Acronyms Meaning
 
 Name | Meaning
 --- | --- 
@@ -74,18 +74,18 @@ HR | Home Red
 AR | Away Red
 
 # Deployment
-We want you to give us the way to deploy your job and run it in any environment, So please put the way to deploy very clearly. If you use any cloud remember to give public access and ask for the reviewers mails to deploy the solution. In any case we preffered open source solutions.
+We want you to tell us how to deploy your job and run it in any environment, so please provide very clear and detailed instructions. If you use any cloud resources, remember to give public access and ask for the reviewers mails to deploy the solution. In any case we preffer open source solutions.
 
 Plase save the deployment in the deploy folder.
 
 # Concerns
-- You can create a new README.md (choose a new name) for anything you want to tell us. Please don't name README.md
-- We want to see if you know how to code in a professional way, so use the best practices of Software Engineering!.
+- You can create a new README.md (choose a new name) for anything you want to tell us. Please don't name it README.md
+- We want to see if you know how to code in a professional way, so use the best practices of Software Engineering!
 - This is an ETL Job, so show us all you know about good practices to do ETL's.
-- Save all the changes in your personal GitHub account using a Fork from this repository and send us the link to clone and see the repository.
+- Save all the changes in your personal GitHub account using a Fork from this repository and send us the link to clone and see your repository.
 
 ## Disclaimer Note
-``` This challenge is your cover letter, the elections you choose to do & not to do matters!!, and will be ask in the next interview. If you don't get to finish the challenge, we will have to end your application```
+``` This challenge is your cover letter, the elections you choose to do & not to do matters!!, and will be asked in the next interview. If you don't finish the challenge, we will have to end your application```
 
 ## Datasets
 Dataset for the challenge is inside folder "data"
