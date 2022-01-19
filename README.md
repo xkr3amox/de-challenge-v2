@@ -2,20 +2,20 @@
 
 This is the New Challenge for Data Engineers.
 
-The EPL (English Premier League) had information of season between 09-10 and 18-19. They hire you as a DE to process the data per season to get some information relevant for the EPL and also send it for the teams and media involved.
+The EPL (English Premier League) has information of seasons between 09-10 and 18-19. They hire you as a DE to process the data per season to get some information relevant for the EPL and also send it to the teams and media involved.
 
 For this Challenge: 
-- We want you to do a Job who give us the Data for the Analytics team, but with a few concerns:
+- We want you to do a Job that gives us the Data for the Analytics team, but with a few concerns:
     - The Job must be an ETL code in Java or Scala or Python.
-    - And we want a Deployment for this code.
-- We want you create an arquitecture proposition for an architecture case below.
-- We want a deployment for the ETL, please remember best deployments are easy to execute.
+    - We want a Deployment for this code.
+- We want you to propose an arquitecture for the case below.
+- We want a deployment for the ETL, please remember that best deployments are the easier to execute.
 
 
 # Architecture Case
 We want an architecture proposition for this case:
 
-The EPL give differents prices each season to the players and teams who played, the prices are for:
+The EPL give different awards each season to the players and teams who played, the awards are:
 - Best Scoring Team
 - Best Coach
 - Best Scoring Player
@@ -23,13 +23,13 @@ The EPL give differents prices each season to the players and teams who played, 
 - Best Assist Player
 - Player who traveled the most kilometers per game played
 - Golden Boy (Best Sub20 Player)
-- Others to be define each season
+- Others to be defined each season
 
-During each match that begins to take place, the EPL has the record of each of the teams involved (Roster of players with name and last name, number, name of the coach), the goals in favor and against before the match to be played & during the course of the match it records in real time the shots, shots on goal, goals, assists, fouls, cards and goalkeeper saves.
+During each match, the EPL has the record of each of the teams involved (Roster of players with name and last name, number, name of the coach), the goals in favor and against before the match & also during the course of the match it records in real time the shots, shots on goal, goals, assists, fouls, cards and goalkeeper saves.
 
-Each player, for his part, has a device that allows him to see the distance covered during the minutes he was on the court, the water lost and the minutes of play. This information is sent in real time to a universal central (provided by the provider of the tool) and sent to each of the analysis centers of each team for future analysis.
+Each player, has a device that allows to record the distance covered during the minutes he was on the field, the water lost and the minutes played. This information is sent in real time to a central server (provided by the provider of the device) and sent to each of the analysis centers of each team for future analysis.
 
-The information of the match, plus players informations is crossed and sent to the different sports sites, in real time, to have the information of the moment of each match played, as well as to the bet houses to change every 5 minutes the % of bet on each of the alternatives they offer. 
+The information of the match, plus players stats is crossed and sent to different sports sites in real time, to have the information of the moment of each match played, /* aqui vamos */ as well as to the bet houses to change every 5 minutes the % of bet on each of the alternatives they offer. 
 
 Propose an architecture on the proposed situation, preferably with open source tools. And save in the architecture case folder (image in png or jpg)
 
