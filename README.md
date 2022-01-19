@@ -6,30 +6,46 @@ The EPL (English Premier League) had information of season between 09-10 and 18-
 
 For this Challenge: 
 - We want you to do a Job who give us the Data for the Analytics team, but with a few concerns:
-- The Job must be an ETL code in Java or Scala or Python.
-- And we want a Deployment for this code.
+    - The Job must be an ETL code in Java or Scala or Python.
+    - And we want a Deployment for this code.
+- We want you create an arquitecture proposition for an architecture case below.
+- We want a deployment for the ETL, please remember best deployments are easy to execute.
 
-Also we want an architecture proposition for this case:
 
-La EPL al final de temporada entrega diversos premios a los jugadores y equipos, entre los que tenemos: equipo goleador, mejor entrenador, jugador goleador, arquero menos batido, al jugador con mas asistencias, al jugador que mas kilometros recorrió por partido jugado, "golden boy" (mejor jugador sub 20), entre otros.
+# Architecture Case
+We want an architecture proposition for this case:
 
-Durante cada partido que se empieza a desarrollar, la EPL posee el registro de cada uno de los equipos involucrados (planilla de jugadores con nombre y apellido, dorsal, nombre del entrenador), los goles a favor y en contra antes del partido a jugarse y durante el transcurso del partido va registrando en tiempo real los disparos, disparos a puerta, goles, asistencias, faltas, tarjetas y tapadas de un portero. 
+The EPL give differents prices each season to the players and teams who played, the prices are for:
+- Best Scoring Team
+- Best Coach
+- Best Scoring Player
+- Less Beaten Goalkepper
+- Best Assist Player
+- Player who traveled the most kilometers per game played
+- Golden Boy (Best Sub20 Player)
+- Others to be define each season
 
-Cada jugador, por su parte, cuenta con un aparato que permite ver la distancia recorrida durante los minutos que estuvo en cancha, el agua perdida y los minutos de juego. Esta informacion es enviada en tiempo real a una central universal (dada por el proveedor de la herramienta) y enviada a cada uno de los centros de analisis de cada equipo para futuros analisis. 
+During each match that begins to take place, the EPL has the record of each of the teams involved (Roster of players with name and last name, number, name of the coach), the goals in favor and against before the match to be played & during the course of the match it records in real time the shots, shots on goal, goals, assists, fouls, cards and goalkeeper saves.
 
-La informacion del partido mas la de los jugadores es cruzada y enviada a los distintos sitios deportivos, en tiempo real, para tener la información del momento de cada partido disputado, asi como a las casas de apuestas para ir cambiando cada 5 minutos los % de apuesta a cada una de las alternativas que ofrecen. Proponga una arquitectura sobre la situacion planteada, de preferencia con herramientas open source.
+Each player, for his part, has a device that allows him to see the distance covered during the minutes he was on the court, the water lost and the minutes of play. This information is sent in real time to a universal central (provided by the provider of the tool) and sent to each of the analysis centers of each team for future analysis.
 
+The information of the match, plus players informations is crossed and sent to the different sports sites, in real time, to have the information of the moment of each match played, as well as to the bet houses to change every 5 minutes the % of bet on each of the alternatives they offer. 
+
+Propose an architecture on the proposed situation, preferably with open source tools. And save in the architecture case folder (image in png or jpg)
 
 # ETL Job
 
 The job must receive the datasets & brings a few things:
 
-The position table for all the seasons
-*The other requeriments will be in the email
+- The position table for all the seasons.
+- **The other requeriments will be in the email**
 
 The data is in the folder data/ in the root. The report need to be exported to a file, you can chose the extension of the file, but remember this is an ETL Job.
 
-Word Meaning
+Please remember to save your code in src folder.
+
+
+## Word Meaning
 
 Name | Meaning
 --- | --- 
@@ -58,16 +74,18 @@ HR | Home Red
 AR | Away Red
 
 # Deployment
-We want you to give us the way to deploy your job and run it in any environment, So please put the way to deploy very clearly.
+We want you to give us the way to deploy your job and run it in any environment, So please put the way to deploy very clearly. If you use any cloud remember to give public access and ask for the reviewers mails to deploy the solution. In any case we preffered open source solutions.
 
-## Concerns
+Plase save the deployment in the deploy folder.
+
+# Concerns
 - You can create a new README.md (choose a new name) for anything you want to tell us. Please don't name README.md
 - We want to see if you know how to code in a professional way, so use the best practices of Software Engineering!.
 - This is an ETL Job, so show us all you know about good practices to do ETL's.
 - Save all the changes in your personal GitHub account using a Fork from this repository and send us the link to clone and see the repository.
 
-### Disclaimer Note
-"This challenge is your cover letter, the elections you choose to do & not to do matters!!, and will be ask in the next interview. If you don't get to finish the challenge, we will have to end your application"
+## Disclaimer Note
+``` This challenge is your cover letter, the elections you choose to do & not to do matters!!, and will be ask in the next interview. If you don't get to finish the challenge, we will have to end your application```
 
 ## Datasets
 Dataset for the challenge is inside folder "data"
