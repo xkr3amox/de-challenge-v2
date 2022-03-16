@@ -1,0 +1,18 @@
+Build image from project's root directory
+Open terminal and run:
+sudo docker build -t de-challenge-solution -f deploy/Dockerfile .
+The image was created
+
+Now run the following command:
+sudo docker run -it de-challenge-solution
+The job was executed
+
+Run the following command to list the docker's containers:
+docker ps -a
+
+Copy the container id for "de-challenge-solution" instance
+To recover the output files from the job run the following commands:
+docker cp <container id>:/usr/src/app/position_table.csv .
+docker cp <container id>:/usr/src/app/best_scoring_team.csv .
+docker cp <container id>:/usr/src/app/best_shots_stats.csv .
+docker cp <container id>:/usr/src/app/score_reverted.csv .
